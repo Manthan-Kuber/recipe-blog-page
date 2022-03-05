@@ -25,6 +25,101 @@ body {
   min-height: 100%;
 }
 
+main {
+  border: 1px red solid;
+  padding: 3.2rem 1.2rem;
+  width: min(100%,96rem);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.title {
+  text-transform: capitalize;
+  font-family: var(--ff-Playfair);
+  font-size: clamp(2.4rem, 3vw + 0.5rem, 4.8rem);
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.description-wrapper {
+  display: flex;
+  gap: 1.2rem;
+  font: clamp(1.2rem, 1.5vw + 0.5rem, 1.4rem) var(--ff-Montserrat);
+  font-weight: 500;
+  color: #4f4f4f;
+  font-style: italic;
+}
+
+.description {
+  width: clamp(45ch, 45%, 75ch);
+}
+
+svg {
+  width: clamp(1.6rem, 3.6rem, 4.8rem);
+  margin-top: 0.5rem;
+}
+
+.times-wrapper {
+  font-family: var(--ff-Montserrat);
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 3rem;
+}
+
+.grid-col-span-3 {
+  grid-column: span 3;
+}
+
+.times-info > p:first-child {
+  text-transform: uppercase;
+  color: #bdbdbd;
+  font-weight: 700;
+  font-size: clamp(0.8rem, 1vw, 1rem);
+}
+
+.times-info > p + p {
+  padding-top: 0.2rem;
+  font-weight: 500;
+  font-size: clamp(1rem, 1.2vw, 1.4rem);
+  color: #333333;
+
+}
+
+.times:first-child,
+.times-wrapper .times:first-child p + p {
+  color: var(--primary);
+}
+
+.times {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hero-img {
+  width: min(96rem, 100%);
+  border-radius: 1.2rem;
+  margin: 2.4rem 0 2.4rem;
+}
+
+.ingredients-wrapper {
+  color: #333333;
+
+}
+
+.ingredients-wrapper h3 {
+  margin-bottom: 1.3rem;
+  font: clamp(1.8rem, 2vw, 2.4rem) var(--ff-Playfair);
+  font-weight: 700;
+}
+
+.ingredients-wrapper h5 {
+  margin-bottom: 2.4rem;
+  font: italic clamp(1.6rem, 2.2vw, 1.8rem) var(--ff-Playfair);
+  font-weight: 400;
+}
+
 footer {
   margin-top: auto;
   padding: 2.4rem 0 2.4rem;
