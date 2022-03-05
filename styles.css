@@ -1,0 +1,37 @@
+:root {
+  --primary: #f2994a;
+  --ff-Montserrat: "Montserrat", sans-serif;
+  --ff-Playfair: "Playfair Display", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+  padding: 2.4rem 0 2.4rem;
+}
+
+.footer-text {
+  font: 1.4rem var(--ff-Montserrat);
+  color: #bdbdbd;
+  text-align: center;
+}
