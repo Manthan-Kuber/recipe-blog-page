@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://manthan-kuber.github.io/interior-consultant-page/">
+    <a href="https://manthan-kuber.github.io/recipe-blog-page/">
       Live Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>
