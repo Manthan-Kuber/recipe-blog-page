@@ -40,10 +40,11 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Learnings
 
-- Improved responsive design
-- Improved Media Queries
-- Learned some modern CSS practices
-- Used JS DOM manipulation for nav
+- Upped my responsive page game
+- Learned to use min,max,clamp effectively
+- Got comfortable with using grid
+- Improved CSS selectors
+- Optimized CSS
 
 ## Contact
 
