@@ -117,8 +117,9 @@ svg {
 }
 
 .checklist {
-  display: flex;
+  display: grid;
   gap: 1rem;
+  grid-template-columns: 3rem 1fr;
   line-height: 3;
   font-weight: 400;
   margin-bottom: 1.2rem;
